@@ -57,8 +57,8 @@ class shoppingCart():
 
 cart = shoppingCart()
 
-cart.runner()
-
-def run():
+def run(instance):
     print('Welcome to Christian\'s Superstore!')
-    cart.runner()
+    instance.runner()
+
+run(cart)
